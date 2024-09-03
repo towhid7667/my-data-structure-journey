@@ -10,7 +10,7 @@ def linked_list_values(head):
   def kreturn(head, k):
       if head is not None:
          k.append(head.val)
-         kreturn(head.next, k) 
+         return(head.next, k) 
   kreturn(head, k)        
   return k
 
